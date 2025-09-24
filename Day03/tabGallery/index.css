@@ -1,0 +1,34 @@
+article {
+  width: 100%;
+  height: 90vh;
+}
+
+.photos {
+  position: relative;
+  display: flex;
+
+  gap: 10px;
+}
+
+.photos > .photo > img {
+  min-width: 250px;
+  height: 160px;
+
+  object-fit: cover;
+}
+
+section {
+  margin-top: 20px;
+
+  width: 65%;
+  height: 600px;
+
+  background-color: rgb(224, 224, 224);
+}
+
+section > img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
