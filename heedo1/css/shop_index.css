@@ -1,0 +1,23 @@
+img {
+  opacity: 1;
+  transition: opacity ease-out 0.7s;
+}
+
+#sectionShop {
+  width: 100%;
+  position: relative;
+
+  overflow: hidden;
+  margin: 0;
+}
+
+/* topSide */
+#sectionShop > #container > #topSide {
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+#sectionShop > #container > #topSide > #photoTop > img {
+  width: 100%;
+  object-fit: cover;
+}
