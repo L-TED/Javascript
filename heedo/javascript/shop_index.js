@@ -1,1 +1,2 @@
-// 그리드에서 프러덕츠 리스트카드 만들기
+// 상품 카드 ALL
+import "./shop_categoryAllProductsLists.js";

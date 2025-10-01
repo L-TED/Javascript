@@ -1,0 +1,54 @@
+/* 상단 category 메뉴 밑줄 */
+#sectionShop
+  > #container
+  > #listProducts
+  > #userList
+  > ul
+  > .categoryLists
+  > .categoryTag {
+  cursor: pointer;
+}
+
+#sectionShop
+  > #container
+  > #listProducts
+  > #userList
+  > ul
+  > .categoryLists
+  > .categoryTag::after {
+  content: "";
+  width: 100%;
+  top: 100%;
+  left: 0%;
+  position: absolute;
+  transform-origin: left;
+
+  background-color: black;
+  transition: all 0.3s;
+  transform: scale(0);
+  opacity: 0.5;
+
+  height: 0.06rem;
+}
+
+#sectionShop
+  > #container
+  > #listProducts
+  > #userList
+  > ul
+  > .categoryLists:hover
+  > .categoryTag::after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+#sectionShop
+  > #container
+  > #listProducts
+  > #userList
+  > ul
+  > .categoryLists
+  > .fixed::after {
+  transform: scale(1);
+  opacity: 1;
+}
