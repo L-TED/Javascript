@@ -1,0 +1,21 @@
+#bg {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: azure;
+
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.btn > .txt {
+  color: #ff0000;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+button {
+  padding: 0.8rem 1.2rem;
+  gap: 1rem;
+  opacity: 1;
+}
